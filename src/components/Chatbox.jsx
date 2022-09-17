@@ -2,6 +2,8 @@ import React from 'react'
 import videoIcon from "../images/cam.png";
 import addFriend from "../images/add.png";
 import moreSettings from "../images/more.png";
+import Messages from './Messages';
+import Input from './Input';
 
 const Chatbox = () => {
   return (
@@ -14,6 +16,8 @@ const Chatbox = () => {
           <img src={moreSettings} alt="More settings" />
         </div>
       </div>
+        <Messages/>
+        <Input/>
     </div>
   )
 }
