@@ -6,7 +6,7 @@ const Register = () => {
     <div className='formContainer'>
         <div className='formWrapper'>
             <span className="logo">Convey</span>
-            <span className="title">Register</span>
+            <span className="title">Sign up</span>
             <form>
                 <input type="text" placeholder="Username"/>
                 <input type="email" placeholder="Email"/>
@@ -18,7 +18,7 @@ const Register = () => {
                 </label>
                 <button>Sign Up</button>
             </form>
-            <p>Already have an account?  Log in</p>
+            <p>Already have an account?  Sign in</p>
         </div>
     </div>
   )
