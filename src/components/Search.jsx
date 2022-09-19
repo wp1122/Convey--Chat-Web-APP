@@ -6,17 +6,16 @@ import {AuthContext} from "../context/AuthContext";
 
 const Search = () => {
 
-  
   const [username,setUsername] = useState("");
   const [user,setUser] = useState(null);
   const [err,setErr] = useState(false);
 
   const {currentUser}= useContext(AuthContext);
-  
-  const handleSearch = async () => {
-    const q= query(collection(db, "users"), where("displayName", "==" , username));
 
-    try{
+  const handleSearch = async () => {
+  const q= query(collection(db, "users"), where("displayName", "==" , username));
+
+  try{
     const querySnapshot = await getDocs(q);
     querySnapshot.forEach((doc) => {
       setUser(doc.data());
