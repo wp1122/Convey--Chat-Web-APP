@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Convey- Online Chatting Web Platform
+Created using React and Firebase.
+Deployed [here](https://chatapp-514e7.web.app/).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
